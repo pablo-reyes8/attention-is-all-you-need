@@ -1,6 +1,6 @@
 # Attention Is All You Need — PyTorch Reproduction (EN↔ES MT)
 
-A compact, reproduction of the original **Transformer** architecture in PyTorch, tailored for **English↔Spanish machine translation** using the OPUS‑100 dataset and **SentencePiece** BPE. This repository emphasizes clarity, correctness, and testability—aimed at students and researchers who want a clean, minimal, and modern baseline that trains on a single T4 GPU.
+A reproduction of the original **Transformer** architecture in PyTorch, tailored for **English↔Spanish machine translation** using the OPUS‑100 dataset and **SentencePiece** BPE. This repository emphasizes clarity, correctness, and testability—aimed at students and researchers who want a clean, minimal, and modern baseline that trains on a single T4 GPU.
 
 ---
 
