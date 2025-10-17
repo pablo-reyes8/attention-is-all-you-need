@@ -84,6 +84,47 @@ HYP: ...  # model argmax under teacher forcing
 REF: ...
 ```
 
+## 📐 Transformer Math & Complexity (Quick)
+
+### Scaled Dot-Product Attention
+Given $Q\in\mathbb{R}^{L_q\times d_k}$, $K\in\mathbb{R}^{L_k\times d_k}$, $V\in\mathbb{R}^{L_k\times d_v}$:
+
+$$\mathrm{Attn}(Q,K,V)=\mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}+M\right)V$$
+
+Time (single head): $O(L_qL_k d_k)$; Memory: $O(L_qL_k)$ for attention weights.
+
+### Multi-Head Attention (MHA)
+
+$$\mathrm{MHA}(X)=\mathrm{Concat}(H_1,\dots,H_h)W_O,\quad H_i=\mathrm{Attn}(XW_i^Q,XW_i^K,XW_i^V)$$
+
+With $d_h=d/h$: Params $\approx 4d^2$ (independent of $h$).  
+
+Self-attn time ( $L_q=L_k=L$ ): $O(L^2 d + L d^2)$; Memory: $O(L^2)$.
+
+### Position-wise FFN
+
+$$\mathrm{FFN}(x)=\max(0,\,xW_1+b_1)W_2+b_2$$
+
+Params $\approx 2 d\,d_{ff}$; Time $O(L\,d\,d_{ff})$; Activations $O(L\,d_{ff})$.
+
+### Encoder Layer (post-norm)
+1) $X\leftarrow \mathrm{LN}(X+\mathrm{MHA}(X))$  
+2) $X\leftarrow \mathrm{LN}(X+\mathrm{FFN}(X))$
+
+Per-layer time: $O(L^2 d + L d^2 + L d d_{ff})$ (bottleneck: $L^2 d$).
+
+### Decoder Layer (post-norm)
+Masked self-attn on $T$: $O(T^2 d)$; cross-attn to encoder length $S$: $O(T S d)$; FFN: $O(T d d_{ff})$.
+
+### Masks (convention)
+- **Padding:** boolean $True$ = block `<pad>`; broadcast to $(B,1,L_q,L_k)$.  
+- **Look-ahead:** upper-triangular $[T\times T]$, $True$ = block future.  
+- **Decoder self-attn:** combine as $M_{\text{look}} \lor M_{\text{pad-tgt}}$.
+
+**Tips:** To fit on small GPUs, reduce $L$, $d$, or $d_{ff}$, or batch size. Use Noam schedule and label smoothing for stability.
+
+
+
 
 ---
 
