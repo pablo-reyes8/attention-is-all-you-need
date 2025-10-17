@@ -1,0 +1,59 @@
+Transformer(
+  (encoder): Encoder(
+    (embedding): Embedding(140000, 256)
+    (dropout): Dropout(p=0.1, inplace=False)
+    (layers): ModuleList(
+      (0-3): 4 x EncoderLayer(
+        (mha): MultiHeadAttention(
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ffn): PositionwiseFeedForward(
+          (fc1): Linear(in_features=256, out_features=1024, bias=True)
+          (fc2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (dropout_ffn): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (decoder): Decoder(
+    (embedding): Embedding(140000, 256)
+    (dropout): Dropout(p=0.1, inplace=False)
+    (dec_layers): ModuleList(
+      (0-3): 4 x DecoderLayer(
+        (mha1): MultiHeadAttention(
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (mha2): MultiHeadAttention(
+          (w_q): Linear(in_features=256, out_features=256, bias=True)
+          (w_k): Linear(in_features=256, out_features=256, bias=True)
+          (w_v): Linear(in_features=256, out_features=256, bias=True)
+          (w_o): Linear(in_features=256, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+        )
+        (ffn): PositionwiseFeedForward(
+          (fc1): Linear(in_features=256, out_features=1024, bias=True)
+          (fc2): Linear(in_features=1024, out_features=256, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (activation): ReLU()
+        )
+        (norm1): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (norm2): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (norm3): LayerNorm((256,), eps=1e-06, elementwise_affine=True)
+        (drop_ffn): Dropout(p=0.1, inplace=False)
+      )
+    )
+  )
+  (final_linear): Linear(in_features=256, out_features=140000, bias=True)
+)
