@@ -42,6 +42,7 @@ A compact, reproduction of the original **Transformer** architecture in PyTorch,
   - **Decoder look-ahead** (triangular causal) possibly combined with tgt padding → `(B, 1, Lq, Lk)`.
   - All masks **broadcastable** to `(B, H, Lq, Lk)`.
 
+
 ---
 
 ## ⚙️ Default Configuration (Tiny)
@@ -56,6 +57,49 @@ max_pos  = 256       # max positions for PE (>= max sequence length)
 ```
 
 This configuration fits **comfortably on a T4** with a small subset of OPUS‑100 (e.g., 50k sentence pairs).
+
+---
+
+## 📁 Project Structure
+
+```
+attention-is-all-you-need/
+│
+├─ data/                            # Data loading & preprocessing
+│   ├─ load_data.py                 # Dataset loading (HuggingFace / OPUS-100)
+│   └─ evaluate_data.py             # Corpus sanity checks, length stats, etc.
+│
+├─ model/
+│   ├─ architecture/                # Core Transformer components
+│   │   ├─ __init__.py              # Reexports for cleaner imports
+│   │   ├─ attention.py             # Multi-Head Attention (Q, K, V, scaled dot-product)
+│   │   ├─ encoder.py               # Encoder block (Self-Attention + FFN)
+│   │   ├─ decoder.py               # Decoder block (Masked MHA + Cross-Attention)
+│   │   ├─ pos_encoding.py          # Positional Encoding (sinusoidal)
+│   │   └─ transformer_masks.py     # Padding & look-ahead masks
+│   │
+│   ├─ training/                    # Training utilities and loop
+│   │   ├─ training_loop.py         # Full training step (forward + backward)
+│   │   ├─ training_utils.py        # LR schedulers, label smoothing, clipping
+│   │   └─ transformer_utils.py     # Weight initialization, parameter counting
+│   │
+│   ├─ transformer.py               # High-level Encoder–Decoder assembly
+│
+├─ test/                            # Unit tests (pytest style)
+│   ├─ conftest.py                  # Pytest fixtures (mocks, sample tensors)
+│   ├─ test_mha.py                  # Tests for Multi-Head Attention
+│   ├─ test_positional_encoding.py  # PE correctness and shape
+│   ├─ test_masks.py                # Mask logic (padding & look-ahead)
+│   ├─ test_encoder_decoder.py      # Encoder/Decoder forward consistency
+│   └─ test_train_step.py           # Gradient flow, optimizer updates
+│
+├─ training_showcase/               # Example notebooks
+│   └─ training_showcase.ipynb      # Interactive training + evaluation demo
+│
+├─ README.md                        # Project overview, setup, usage
+```
+
+---
 
 
 ### Training
@@ -155,47 +199,6 @@ pytest -q
 ```
 
 > If you don’t use pytest, you can still run the test functions directly; they are standard Python `assert` checks.
-
----
-
-## 📁 Project Structure (suggested)
-
-```
-attention-is-all-you-need/
-│
-├─ data/                            # Data loading & preprocessing
-│   ├─ load_data.py                 # Dataset loading (HuggingFace / OPUS-100)
-│   └─ evaluate_data.py             # Corpus sanity checks, length stats, etc.
-│
-├─ model/
-│   ├─ architecture/                # Core Transformer components
-│   │   ├─ __init__.py              # Reexports for cleaner imports
-│   │   ├─ attention.py             # Multi-Head Attention (Q, K, V, scaled dot-product)
-│   │   ├─ encoder.py               # Encoder block (Self-Attention + FFN)
-│   │   ├─ decoder.py               # Decoder block (Masked MHA + Cross-Attention)
-│   │   ├─ pos_encoding.py          # Positional Encoding (sinusoidal)
-│   │   └─ transformer_masks.py     # Padding & look-ahead masks
-│   │
-│   ├─ training/                    # Training utilities and loop
-│   │   ├─ training_loop.py         # Full training step (forward + backward)
-│   │   ├─ training_utils.py        # LR schedulers, label smoothing, clipping
-│   │   └─ transformer_utils.py     # Weight initialization, parameter counting
-│   │
-│   ├─ transformer.py               # High-level Encoder–Decoder assembly
-│
-├─ test/                            # Unit tests (pytest style)
-│   ├─ conftest.py                  # Pytest fixtures (mocks, sample tensors)
-│   ├─ test_mha.py                  # Tests for Multi-Head Attention
-│   ├─ test_positional_encoding.py  # PE correctness and shape
-│   ├─ test_masks.py                # Mask logic (padding & look-ahead)
-│   ├─ test_encoder_decoder.py      # Encoder/Decoder forward consistency
-│   └─ test_train_step.py           # Gradient flow, optimizer updates
-│
-├─ training_showcase/               # Example notebooks
-│   └─ training_showcase.ipynb      # Interactive training + evaluation demo
-│
-├─ README.md                        # Project overview, setup, usage
-```
 
 ---
 
