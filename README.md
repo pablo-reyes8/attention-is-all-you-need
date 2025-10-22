@@ -194,11 +194,35 @@ tests/
 - A full training step: forward → loss → backward → optimizer step.
 
 Run all tests:
-```bash 
+```bash
 pytest -q
 ```
 
 > If you don’t use pytest, you can still run the test functions directly; they are standard Python `assert` checks.
+
+---
+
+## 🗣️ Inference (EN→ES Translation)
+
+Once training is complete you can translate arbitrary English sentences with the
+`inference.py` helper. Provide the path to your best checkpoint and the
+SentencePiece model used during training:
+
+```bash
+python inference.py checkpoints/transformer_best.pt /path/to/spm_bpe.model "How are you today?"
+```
+
+By default the command performs greedy decoding on GPU (if available). You can
+override architectural hyperparameters if they differ from the defaults used in
+this repository:
+
+```bash
+python inference.py checkpoints/transformer_best.pt /path/to/spm_bpe.model \
+  --num-layers 6 --d-model 512 --num-heads 8 --d-ff 2048 --max-decode-len 128
+```
+
+Omit the trailing text argument to enter an interactive REPL that translates
+each line entered from standard input.
 
 ---
 
