@@ -1,0 +1,490 @@
+[Epoch 1 |  200/782] train_loss=8.8961  ppl=7303.28  tok_acc=9.32%  tok/s=6,048
+[Epoch 1 |  400/782] train_loss=8.3910  ppl=4407.31  tok_acc=12.98%  tok/s=6,145
+[Epoch 1 |  600/782] train_loss=8.0322  ppl=3078.59  tok_acc=14.70%  tok/s=6,206
+— preview (teacher-forced argmax) —
+HYP: Sí..
+REF: Dios mío.
+Epoch 1 done | train_loss=7.7759
+[Epoch 2 |  200/782] train_loss=6.6715  ppl=789.61  tok_acc=20.13%  tok/s=6,289
+[Epoch 2 |  400/782] train_loss=6.5994  ppl=734.66  tok_acc=20.46%  tok/s=6,232
+[Epoch 2 |  600/782] train_loss=6.5319  ppl=686.73  tok_acc=20.71%  tok/s=6,217
+— preview (teacher-forced argmax) —
+HYP: No no no... me sido
+REF: Yo... siento no haber...
+Epoch 2 done | train_loss=6.4729
+[Epoch 3 |  200/782] train_loss=6.1354  ppl=461.91  tok_acc=22.51%  tok/s=6,400
+[Epoch 3 |  400/782] train_loss=6.0873  ppl=440.23  tok_acc=22.96%  tok/s=6,292
+[Epoch 3 |  600/782] train_loss=6.0443  ppl=421.69  tok_acc=23.22%  tok/s=6,212
+— preview (teacher-forced argmax) —
+HYP: Como suas a tu vida de serar. poco de su vidao. que te su. vida.
+REF: Como comandante de esta nave debe escoger un miembro de su tripulación para que entregue su vida.
+Epoch 3 done | train_loss=6.0047
+[Epoch 4 |  200/782] train_loss=5.7339  ppl=309.17  tok_acc=25.67%  tok/s=6,249
+[Epoch 4 |  400/782] train_loss=5.7163  ppl=303.79  tok_acc=25.83%  tok/s=6,232
+[Epoch 4 |  600/782] train_loss=5.6865  ppl=294.85  tok_acc=26.12%  tok/s=6,227
+— preview (teacher-forced argmax) —
+HYP: Elo,os.ióad,., sido unado un de las para el D de la de el D de unina de” proyecto de la de la un el de el se gran deó un de. se. de en Presidente de la díasado.adoado de cuando seidos en gran un la un de la guerra.
+REF: Stanislav Dmitrievsky había sido declarado culpable de “acciones con el propósito de incitar al odio u hostilidad” el 3 de febrero de 2006, en ocasión en que un periódico publicó una entrevista que él había realizado al jefe de los rebeldes chechenos, que contenía un llamado a poner fin a la guerra.
+Epoch 4 done | train_loss=5.6658
+[Epoch 5 |  200/782] train_loss=5.4646  ppl=236.19  tok_acc=28.12%  tok/s=6,170
+[Epoch 5 |  400/782] train_loss=5.4499  ppl=232.73  tok_acc=28.29%  tok/s=6,177
+[Epoch 5 |  600/782] train_loss=5.4354  ppl=229.39  tok_acc=28.47%  tok/s=6,189
+— preview (teacher-forced argmax) —
+HYP: -e..
+REF: Gulliver.
+Epoch 5 done | train_loss=5.4259
+[Epoch 6 |  200/782] train_loss=5.2553  ppl=191.58  tok_acc=30.26%  tok/s=6,186
+[Epoch 6 |  400/782] train_loss=5.2543  ppl=191.38  tok_acc=30.29%  tok/s=6,189
+[Epoch 6 |  600/782] train_loss=5.2520  ppl=190.94  tok_acc=30.36%  tok/s=6,247
+— preview (teacher-forced argmax) —
+HYP: Elu PÍ P en P en partees en enitorio en enuia de en de en en en en endo. la0 en elesiaia
+REF: Aleš Šteger es un poeta, escritor, traductor y editor esloveno, nacido en 1973, en Ptuj.
+Epoch 6 done | train_loss=5.2476
+[Epoch 7 |  200/782] train_loss=5.0968  ppl=163.49  tok_acc=31.92%  tok/s=6,164
+[Epoch 7 |  400/782] train_loss=5.1025  ppl=164.43  tok_acc=31.83%  tok/s=6,210
+[Epoch 7 |  600/782] train_loss=5.1040  ppl=164.68  tok_acc=31.84%  tok/s=6,236
+— preview (teacher-forced argmax) —
+HYP: 4.ARación (c).)
+REF: Lactancia (ver sección 4.6).
+Epoch 7 done | train_loss=5.1060
+[Epoch 8 |  200/782] train_loss=4.9722  ppl=144.35  tok_acc=33.37%  tok/s=6,230
+[Epoch 8 |  400/782] train_loss=4.9736  ppl=144.55  tok_acc=33.30%  tok/s=6,216
+[Epoch 8 |  600/782] train_loss=4.9870  ppl=146.49  tok_acc=33.16%  tok/s=6,161
+— preview (teacher-forced argmax) —
+HYP: Estaba Penséí que erabamos a tilo
+REF: - Creí que íbamos a comer.
+Epoch 8 done | train_loss=4.9885
+[Epoch 9 |  200/782] train_loss=4.8578  ppl=128.74  tok_acc=34.53%  tok/s=6,467
+[Epoch 9 |  400/782] train_loss=4.8722  ppl=130.61  tok_acc=34.32%  tok/s=6,274
+[Epoch 9 |  600/782] train_loss=4.8811  ppl=131.78  tok_acc=34.19%  tok/s=6,232
+— preview (teacher-forced argmax) —
+HYP: Este embargo, el relaciones no se normasadas, Oeccionadosemi,, que sejaó la trabajoón de la a la efectos, salud,, la salud, trabajoismo.
+REF: Sin embargo, estas cifras no eran indicativas del perfil epidemiológico sino que reflejaban el patrón de asistencia a los servicios de atención primaria de la salud del Organismo.
+Epoch 9 done | train_loss=4.8844
+[Epoch 10 |  200/782] train_loss=4.7625  ppl=117.04  tok_acc=35.65%  tok/s=6,309
+[Epoch 10 |  400/782] train_loss=4.7752  ppl=118.53  tok_acc=35.49%  tok/s=6,289
+[Epoch 10 |  600/782] train_loss=4.7863  ppl=119.86  tok_acc=35.35%  tok/s=6,255
+— preview (teacher-forced argmax) —
+HYP: El documentosatarios de venidoado a responsabilidadación de se dispuestos a laar como la y's. gran que se territorio. sido tan enadas.
+REF: Los relatores han aceptado la invitación y están dispuestos a trasladarse a Côte d'Ivoire una vez que el territorio haya sido plenamente liberado.
+Epoch 10 done | train_loss=4.7953
+[Epoch 11 |  200/782] train_loss=4.6821  ppl=108.00  tok_acc=36.46%  tok/s=6,194
+[Epoch 11 |  400/782] train_loss=4.6948  ppl=109.38  tok_acc=36.36%  tok/s=6,293
+[Epoch 11 |  600/782] train_loss=4.7048  ppl=110.47  tok_acc=36.26%  tok/s=6,267
+— preview (teacher-forced argmax) —
+HYP: Hoy esta el primer día de su al y su cosas que su el su.
+REF: Hoy es el primer día de sus vacaciones y las pidió a primeros de año.
+Epoch 11 done | train_loss=4.7157
+[Epoch 12 |  200/782] train_loss=4.6010  ppl=99.59  tok_acc=37.63%  tok/s=6,297
+[Epoch 12 |  400/782] train_loss=4.6163  ppl=101.12  tok_acc=37.43%  tok/s=6,323
+[Epoch 12 |  600/782] train_loss=4.6338  ppl=102.90  tok_acc=37.16%  tok/s=6,260
+— preview (teacher-forced argmax) —
+HYP: Sí, señor debateorno.
+REF: Sí, el retiro.
+Epoch 12 done | train_loss=4.6415
+[Epoch 13 |  200/782] train_loss=4.5176  ppl=91.62  tok_acc=38.78%  tok/s=6,157
+[Epoch 13 |  400/782] train_loss=4.5439  ppl=94.06  tok_acc=38.26%  tok/s=6,214
+[Epoch 13 |  600/782] train_loss=4.5646  ppl=96.03  tok_acc=37.97%  tok/s=6,190
+— preview (teacher-forced argmax) —
+HYP: La Nosráemos a lo a Tenemosleada cuando
+REF: - Hablaremos cuando llegue. - Henrik?
+Epoch 13 done | train_loss=4.5748
+[Epoch 14 |  200/782] train_loss=4.4626  ppl=86.71  tok_acc=39.27%  tok/s=6,323
+[Epoch 14 |  400/782] train_loss=4.4877  ppl=88.92  tok_acc=38.91%  tok/s=6,304
+[Epoch 14 |  600/782] train_loss=4.5004  ppl=90.05  tok_acc=38.78%  tok/s=6,258
+— preview (teacher-forced argmax) —
+HYP: Vamos a trabajar.
+REF: Vamos a trabajar.
+Epoch 14 done | train_loss=4.5113
+[Epoch 15 |  200/782] train_loss=4.4170  ppl=82.85  tok_acc=39.86%  tok/s=6,147
+[Epoch 15 |  400/782] train_loss=4.4345  ppl=84.31  tok_acc=39.63%  tok/s=6,215
+[Epoch 15 |  600/782] train_loss=4.4442  ppl=85.13  tok_acc=39.48%  tok/s=6,247
+— preview (teacher-forced argmax) —
+HYP: Se trata de un debate importante, que se a partir millones millones de euros.
+REF: Se trata de un debate importante, que afecta a 493 millones de personas.
+Epoch 15 done | train_loss=4.4561
+[Epoch 16 |  200/782] train_loss=4.3557  ppl=77.92  tok_acc=40.62%  tok/s=6,178
+[Epoch 16 |  400/782] train_loss=4.3709  ppl=79.11  tok_acc=40.46%  tok/s=6,208
+[Epoch 16 |  600/782] train_loss=4.3888  ppl=80.54  tok_acc=40.25%  tok/s=6,211
+— preview (teacher-forced argmax) —
+HYP: Meién salir lo dejeter. mi.
+REF: Quiere que le saque de ahí.
+Epoch 16 done | train_loss=4.4017
+[Epoch 17 |  200/782] train_loss=4.3072  ppl=74.23  tok_acc=41.29%  tok/s=6,148
+[Epoch 17 |  400/782] train_loss=4.3263  ppl=75.67  tok_acc=41.06%  tok/s=6,183
+[Epoch 17 |  600/782] train_loss=4.3412  ppl=76.80  tok_acc=40.81%  tok/s=6,185
+— preview (teacher-forced argmax) —
+HYP: El ha que la serieación de por producción de que la bublicisámica paraal, la producción de del, se ha sidoado a a la producción de
+REF: Se quería aplicar una compensación y la posibilidad de realizar una repoblación forestal con la 2080 allí donde se había retirado algo de la producción.
+Epoch 17 done | train_loss=4.3512
+[Epoch 18 |  200/782] train_loss=4.2547  ppl=70.44  tok_acc=42.13%  tok/s=6,167
+[Epoch 18 |  400/782] train_loss=4.2812  ppl=72.33  tok_acc=41.66%  tok/s=6,229
+[Epoch 18 |  600/782] train_loss=4.2963  ppl=73.43  tok_acc=41.44%  tok/s=6,249
+— preview (teacher-forced argmax) —
+HYP: Hay un millones como una le ungrarías una Rey.
+REF: Hay mil chicas como tú en Desembarco del Rey.
+Epoch 18 done | train_loss=4.3048
+[Epoch 19 |  200/782] train_loss=4.2233  ppl=68.26  tok_acc=42.43%  tok/s=6,173
+[Epoch 19 |  400/782] train_loss=4.2407  ppl=69.45  tok_acc=42.16%  tok/s=6,258
+[Epoch 19 |  600/782] train_loss=4.2519  ppl=70.24  tok_acc=41.98%  tok/s=6,236
+— preview (teacher-forced argmax) —
+HYP: ¿Entonces qué?
+REF: ¿Entonces qué?
+Epoch 19 done | train_loss=4.2616
+[Epoch 20 |  200/782] train_loss=4.1655  ppl=64.42  tok_acc=43.18%  tok/s=6,336
+[Epoch 20 |  400/782] train_loss=4.1805  ppl=65.40  tok_acc=43.02%  tok/s=6,231
+[Epoch 20 |  600/782] train_loss=4.2042  ppl=66.97  tok_acc=42.65%  tok/s=6,221
+— preview (teacher-forced argmax) —
+HYP: Tengo tenerar...
+REF: Podría jurar...
+Epoch 20 done | train_loss=4.2189
+[Epoch 21 |  200/782] train_loss=4.1250  ppl=61.87  tok_acc=43.70%  tok/s=6,340
+[Epoch 21 |  400/782] train_loss=4.1527  ppl=63.60  tok_acc=43.33%  tok/s=6,300
+[Epoch 21 |  600/782] train_loss=4.1649  ppl=64.39  tok_acc=43.18%  tok/s=6,231
+— preview (teacher-forced argmax) —
+HYP: ¿ letamente que que le mi le gusta los a rec a mostr.mente
+REF: Esto ciertamente explica porque a papá le gustan tanto sus shows al aire libre.
+Epoch 21 done | train_loss=4.1796
+[Epoch 22 |  200/782] train_loss=4.1049  ppl=60.64  tok_acc=44.00%  tok/s=6,334
+[Epoch 22 |  400/782] train_loss=4.1196  ppl=61.53  tok_acc=43.81%  tok/s=6,214
+[Epoch 22 |  600/782] train_loss=4.1286  ppl=62.09  tok_acc=43.66%  tok/s=6,171
+— preview (teacher-forced argmax) —
+HYP: Es tiene mucho más sentido.
+REF: Eso tiene mucho más sentido.
+Epoch 22 done | train_loss=4.1436
+[Epoch 23 |  200/782] train_loss=4.0532  ppl=57.58  tok_acc=44.74%  tok/s=6,050
+[Epoch 23 |  400/782] train_loss=4.0730  ppl=58.73  tok_acc=44.43%  tok/s=6,163
+[Epoch 23 |  600/782] train_loss=4.0934  ppl=59.94  tok_acc=44.14%  tok/s=6,213
+— preview (teacher-forced argmax) —
+HYP: M encuentra mas masmente uno.
+REF: Se pone mas fuerte cada dia.
+Epoch 23 done | train_loss=4.1055
+[Epoch 24 |  200/782] train_loss=4.0244  ppl=55.95  tok_acc=45.03%  tok/s=6,248
+[Epoch 24 |  400/782] train_loss=4.0404  ppl=56.85  tok_acc=44.82%  tok/s=6,185
+[Epoch 24 |  600/782] train_loss=4.0567  ppl=57.78  tok_acc=44.61%  tok/s=6,183
+— preview (teacher-forced argmax) —
+HYP: -, ¿dónde estás has?
+REF: Espera, ¿dónde te vas?
+Epoch 24 done | train_loss=4.0734
+[Epoch 25 |  200/782] train_loss=3.9769  ppl=53.35  tok_acc=45.73%  tok/s=6,258
+[Epoch 25 |  400/782] train_loss=4.0071  ppl=54.99  tok_acc=45.26%  tok/s=6,289
+[Epoch 25 |  600/782] train_loss=4.0302  ppl=56.27  tok_acc=44.86%  tok/s=6,245
+— preview (teacher-forced argmax) —
+HYP: Sólo 12:2eros de en una misión.da.
+REF: Sólo 12 prisioneros militares en una misión suicida.
+Epoch 25 done | train_loss=4.0404
+[Epoch 26 |  200/782] train_loss=3.9536  ppl=52.12  tok_acc=46.19%  tok/s=6,150
+[Epoch 26 |  400/782] train_loss=3.9802  ppl=53.53  tok_acc=45.76%  tok/s=6,242
+[Epoch 26 |  600/782] train_loss=3.9978  ppl=54.48  tok_acc=45.47%  tok/s=6,183
+— preview (teacher-forced argmax) —
+HYP: Se necesario,uadir, maruadir. asíando.
+REF: Es necesario persuadir, persuadir, alentador.
+Epoch 26 done | train_loss=4.0099
+[Epoch 27 |  200/782] train_loss=3.9176  ppl=50.28  tok_acc=46.61%  tok/s=6,183
+[Epoch 27 |  400/782] train_loss=3.9432  ppl=51.58  tok_acc=46.13%  tok/s=6,205
+[Epoch 27 |  600/782] train_loss=3.9652  ppl=52.73  tok_acc=45.83%  tok/s=6,233
+— preview (teacher-forced argmax) —
+HYP: - ¿ qué?
+REF: - De qué?
+Epoch 27 done | train_loss=3.9784
+[Epoch 28 |  200/782] train_loss=3.9046  ppl=49.63  tok_acc=46.81%  tok/s=6,250
+[Epoch 28 |  400/782] train_loss=3.9254  ppl=50.67  tok_acc=46.44%  tok/s=6,231
+[Epoch 28 |  600/782] train_loss=3.9359  ppl=51.21  tok_acc=46.30%  tok/s=6,270
+— preview (teacher-forced argmax) —
+HYP: Ambic y and and.....
+REF: Both mechanical and electric models are offered.
+Epoch 28 done | train_loss=3.9514
+[Epoch 29 |  200/782] train_loss=3.8750  ppl=48.19  tok_acc=47.10%  tok/s=6,198
+[Epoch 29 |  400/782] train_loss=3.8999  ppl=49.40  tok_acc=46.75%  tok/s=6,185
+[Epoch 29 |  600/782] train_loss=3.9137  ppl=50.08  tok_acc=46.57%  tok/s=6,212
+— preview (teacher-forced argmax) —
+HYP: Enación, porque el problema es una financiación laación de el problemaamiento de algunos considerados a crear algunas deos. financiaciónar. los..
+REF: Financiarlos, porque el problema es la sobre regulación y el financiamiento y estamos empezando a crear algunos conceptos de financiamiento a pequeños negocios.
+Epoch 29 done | train_loss=3.9245
+[Epoch 30 |  200/782] train_loss=3.8419  ppl=46.62  tok_acc=47.75%  tok/s=6,225
+[Epoch 30 |  400/782] train_loss=3.8744  ppl=48.15  tok_acc=47.19%  tok/s=6,270
+[Epoch 30 |  600/782] train_loss=3.8880  ppl=48.81  tok_acc=46.96%  tok/s=6,249
+— preview (teacher-forced argmax) —
+HYP: No lo se.
+REF: No lo creo.
+Epoch 30 done | train_loss=3.8967
+[Epoch 31 |  200/782] train_loss=3.8192  ppl=45.57  tok_acc=48.02%  tok/s=6,293
+[Epoch 31 |  400/782] train_loss=3.8373  ppl=46.40  tok_acc=47.69%  tok/s=6,226
+[Epoch 31 |  600/782] train_loss=3.8589  ppl=47.42  tok_acc=47.35%  tok/s=6,259
+— preview (teacher-forced argmax) —
+HYP: Pomo dice, encanta, hombreazz.
+REF: A Nikki le encanta el jazz.
+Epoch 31 done | train_loss=3.8717
+[Epoch 32 |  200/782] train_loss=3.7727  ppl=43.50  tok_acc=48.80%  tok/s=6,223
+[Epoch 32 |  400/782] train_loss=3.8019  ppl=44.79  tok_acc=48.26%  tok/s=6,289
+[Epoch 32 |  600/782] train_loss=3.8301  ppl=46.07  tok_acc=47.82%  tok/s=6,255
+— preview (teacher-forced argmax) —
+HYP: Su pocoina.
+REF: Su sobrina.
+Epoch 32 done | train_loss=3.8471
+[Epoch 33 |  200/782] train_loss=3.7844  ppl=44.01  tok_acc=48.66%  tok/s=6,379
+[Epoch 33 |  400/782] train_loss=3.7980  ppl=44.61  tok_acc=48.32%  tok/s=6,216
+[Epoch 33 |  600/782] train_loss=3.8117  ppl=45.23  tok_acc=48.07%  tok/s=6,215
+— preview (teacher-forced argmax) —
+HYP: Después de una tres deencias y las tres mujeres, las, se celebron muyiosos,, se celebraron un de, se celebr una plan de acción.
+REF: Después de las 29 ponencias y las tres sesiones de debate, se formularon valiosas observaciones, se sacaron conclusiones importantes y se presentó un plan de acción.
+Epoch 33 done | train_loss=3.8232
+[Epoch 34 |  200/782] train_loss=3.7608  ppl=42.98  tok_acc=48.78%  tok/s=6,125
+[Epoch 34 |  400/782] train_loss=3.7757  ppl=43.63  tok_acc=48.52%  tok/s=6,102
+[Epoch 34 |  600/782] train_loss=3.7945  ppl=44.46  tok_acc=48.25%  tok/s=6,146
+— preview (teacher-forced argmax) —
+HYP: He estado en muchos lugares.
+REF: He estado en muchos lugares.
+Epoch 34 done | train_loss=3.8000
+[Epoch 35 |  200/782] train_loss=3.7282  ppl=41.60  tok_acc=49.31%  tok/s=6,299
+[Epoch 35 |  400/782] train_loss=3.7493  ppl=42.49  tok_acc=48.97%  tok/s=6,261
+[Epoch 35 |  600/782] train_loss=3.7645  ppl=43.14  tok_acc=48.71%  tok/s=6,299
+— preview (teacher-forced argmax) —
+HYP: Tenía inteligenteuto que una mesa de esaion.
+REF: Fue astuto usar la mesa como camilla.
+Epoch 35 done | train_loss=3.7784
+[Epoch 36 |  200/782] train_loss=3.7134  ppl=40.99  tok_acc=49.53%  tok/s=6,344
+[Epoch 36 |  400/782] train_loss=3.7290  ppl=41.64  tok_acc=49.24%  tok/s=6,354
+[Epoch 36 |  600/782] train_loss=3.7406  ppl=42.12  tok_acc=49.05%  tok/s=6,282
+— preview (teacher-forced argmax) —
+HYP: Se des una, No ha hecho nada poco real de este mundo.
+REF: Está demente. Solo ha hecho un real desastre de este mundo.
+Epoch 36 done | train_loss=3.7572
+[Epoch 37 |  200/782] train_loss=3.6786  ppl=39.59  tok_acc=50.04%  tok/s=6,191
+[Epoch 37 |  400/782] train_loss=3.7011  ppl=40.49  tok_acc=49.60%  tok/s=6,242
+[Epoch 37 |  600/782] train_loss=3.7200  ppl=41.27  tok_acc=49.32%  tok/s=6,212
+— preview (teacher-forced argmax) —
+HYP: V de puta.
+REF: Hijo de perra.
+Epoch 37 done | train_loss=3.7368
+[Epoch 38 |  200/782] train_loss=3.6721  ppl=39.33  tok_acc=50.09%  tok/s=6,258
+[Epoch 38 |  400/782] train_loss=3.6938  ppl=40.20  tok_acc=49.67%  tok/s=6,190
+[Epoch 38 |  600/782] train_loss=3.7044  ppl=40.63  tok_acc=49.50%  tok/s=6,230
+— preview (teacher-forced argmax) —
+HYP: Su...? los ojos como ha hechoído...? losadera.
+REF: Ha cerrado los ojos y ha caído en la papelera.
+Epoch 38 done | train_loss=3.7169
+[Epoch 39 |  200/782] train_loss=3.6332  ppl=37.83  tok_acc=50.87%  tok/s=6,292
+[Epoch 39 |  400/782] train_loss=3.6613  ppl=38.91  tok_acc=50.34%  tok/s=6,247
+[Epoch 39 |  600/782] train_loss=3.6805  ppl=39.67  tok_acc=50.01%  tok/s=6,260
+— preview (teacher-forced argmax) —
+HYP: Ahora ir una niña, ¿No te irosa? piensas crees gusta eso?
+REF: Es sólo una niña. ¿No es irónico que tú me digas eso?
+Epoch 39 done | train_loss=3.6957
+[Epoch 40 |  200/782] train_loss=3.6204  ppl=37.35  tok_acc=50.93%  tok/s=6,249
+[Epoch 40 |  400/782] train_loss=3.6430  ppl=38.21  tok_acc=50.58%  tok/s=6,232
+[Epoch 40 |  600/782] train_loss=3.6595  ppl=38.84  tok_acc=50.28%  tok/s=6,206
+— preview (teacher-forced argmax) —
+HYP: ¿Qué hay de eso?
+REF: ¿Qué hay con eso?
+Epoch 40 done | train_loss=3.6780
+[Epoch 41 |  200/782] train_loss=3.6165  ppl=37.21  tok_acc=50.91%  tok/s=6,372
+[Epoch 41 |  400/782] train_loss=3.6318  ppl=37.78  tok_acc=50.68%  tok/s=6,248
+[Epoch 41 |  600/782] train_loss=3.6506  ppl=38.50  tok_acc=50.34%  tok/s=6,263
+— preview (teacher-forced argmax) —
+HYP: ¿Alguiengogun? la.?
+REF: ¿Alguno de Uds.?
+Epoch 41 done | train_loss=3.6612
+[Epoch 42 |  200/782] train_loss=3.5910  ppl=36.27  tok_acc=51.40%  tok/s=6,230
+[Epoch 42 |  400/782] train_loss=3.6125  ppl=37.06  tok_acc=51.04%  tok/s=6,285
+[Epoch 42 |  600/782] train_loss=3.6279  ppl=37.63  tok_acc=50.72%  tok/s=6,249
+— preview (teacher-forced argmax) —
+HYP: Los dosatrices en tus rostro, en tus pies de en tus pies, tu tus recho,, ya estar engr la re.
+REF: Las cicatrices en tu rostro, en tus manos, en tus pies, en tu pecho parecen, parecen estar sanando sin problemas.
+Epoch 42 done | train_loss=3.6414
+[Epoch 43 |  200/782] train_loss=3.5685  ppl=35.46  tok_acc=51.72%  tok/s=6,131
+[Epoch 43 |  400/782] train_loss=3.5944  ppl=36.39  tok_acc=51.29%  tok/s=6,200
+[Epoch 43 |  600/782] train_loss=3.6093  ppl=36.94  tok_acc=51.00%  tok/s=6,178
+— preview (teacher-forced argmax) —
+HYP: Por supuesto, no tienen teléfono.
+REF: Por supuesto, no tienen teléfono.
+Epoch 43 done | train_loss=3.6253
+[Epoch 44 |  200/782] train_loss=3.5533  ppl=34.93  tok_acc=51.82%  tok/s=6,200
+[Epoch 44 |  400/782] train_loss=3.5747  ppl=35.68  tok_acc=51.57%  tok/s=6,221
+[Epoch 44 |  600/782] train_loss=3.5933  ppl=36.35  tok_acc=51.21%  tok/s=6,227
+— preview (teacher-forced argmax) —
+HYP: - DijYoijoaré que me moaré el sú!
+REF: - ¡Dije que la tomaré, sargento!
+Epoch 44 done | train_loss=3.6058
+[Epoch 45 |  200/782] train_loss=3.5475  ppl=34.73  tok_acc=52.08%  tok/s=6,165
+[Epoch 45 |  400/782] train_loss=3.5594  ppl=35.14  tok_acc=51.78%  tok/s=6,184
+[Epoch 45 |  600/782] train_loss=3.5749  ppl=35.69  tok_acc=51.54%  tok/s=6,205
+— preview (teacher-forced argmax) —
+HYP: Quiero heinastas en estosdo en los precios de los calle.
+REF: Estas chuletas de cerdo con los precios de la oferta.
+Epoch 45 done | train_loss=3.5882
+[Epoch 46 |  200/782] train_loss=3.5284  ppl=34.07  tok_acc=52.27%  tok/s=6,241
+[Epoch 46 |  400/782] train_loss=3.5418  ppl=34.53  tok_acc=52.03%  tok/s=6,236
+[Epoch 46 |  600/782] train_loss=3.5558  ppl=35.02  tok_acc=51.77%  tok/s=6,275
+— preview (teacher-forced argmax) —
+HYP: - Ya sé sé, es escuch que de él.
+REF: - Ya lo sé, he oído hablar de él.
+Epoch 46 done | train_loss=3.5736
+[Epoch 47 |  200/782] train_loss=3.5034  ppl=33.23  tok_acc=52.73%  tok/s=6,311
+[Epoch 47 |  400/782] train_loss=3.5345  ppl=34.28  tok_acc=52.19%  tok/s=6,261
+[Epoch 47 |  600/782] train_loss=3.5421  ppl=34.54  tok_acc=52.05%  tok/s=6,259
+— preview (teacher-forced argmax) —
+HYP: No creo que sea... mano.
+REF: No creo que sea mi situación.
+Epoch 47 done | train_loss=3.5576
+[Epoch 48 |  200/782] train_loss=3.4819  ppl=32.52  tok_acc=53.19%  tok/s=6,322
+[Epoch 48 |  400/782] train_loss=3.5150  ppl=33.62  tok_acc=52.47%  tok/s=6,240
+[Epoch 48 |  600/782] train_loss=3.5326  ppl=34.21  tok_acc=52.13%  tok/s=6,230
+— preview (teacher-forced argmax) —
+HYP: Porretanto, en la están últimosicios políticos yen a atención internacional y encuitoir a los interores internacionales.
+REF: Entretanto, en Egipto los juicios políticos atraen la atención internacional y disuaden a los inversores extranjeros.
+Epoch 48 done | train_loss=3.5427
+[Epoch 49 |  200/782] train_loss=3.4702  ppl=32.14  tok_acc=53.31%  tok/s=6,240
+[Epoch 49 |  400/782] train_loss=3.4950  ppl=32.95  tok_acc=52.85%  tok/s=6,246
+[Epoch 49 |  600/782] train_loss=3.5134  ppl=33.56  tok_acc=52.51%  tok/s=6,280
+— preview (teacher-forced argmax) —
+HYP: Tú vasará el palacio.. sombras.
+REF: Te llegará la paleta más las sombras.
+Epoch 49 done | train_loss=3.5297
+[Epoch 50 |  200/782] train_loss=3.4726  ppl=32.22  tok_acc=53.07%  tok/s=6,246
+[Epoch 50 |  400/782] train_loss=3.4892  ppl=32.76  tok_acc=52.76%  tok/s=6,266
+[Epoch 50 |  600/782] train_loss=3.5049  ppl=33.28  tok_acc=52.47%  tok/s=6,269
+— preview (teacher-forced argmax) —
+HYP: Y a Demetrius.
+REF: Vi a Demetrius.
+Epoch 50 done | train_loss=3.5160
+[Epoch 51 |  200/782] train_loss=3.4625  ppl=31.90  tok_acc=53.39%  tok/s=6,291
+[Epoch 51 |  400/782] train_loss=3.4683  ppl=32.08  tok_acc=53.17%  tok/s=6,179
+[Epoch 51 |  600/782] train_loss=3.4897  ppl=32.77  tok_acc=52.80%  tok/s=6,182
+— preview (teacher-forced argmax) —
+HYP: AmPasamos ro parece fantasBasamos hermanosura"
+REF: "Fantasma" y "Pote de Basura".
+Epoch 51 done | train_loss=3.5008
+[Epoch 52 |  200/782] train_loss=3.4445  ppl=31.33  tok_acc=53.54%  tok/s=6,285
+[Epoch 52 |  400/782] train_loss=3.4544  ppl=31.64  tok_acc=53.43%  tok/s=6,266
+[Epoch 52 |  600/782] train_loss=3.4713  ppl=32.18  tok_acc=53.15%  tok/s=6,264
+— preview (teacher-forced argmax) —
+HYP: ¿Brian?
+REF: ¿Brian?
+Epoch 52 done | train_loss=3.4855
+[Epoch 53 |  200/782] train_loss=3.4291  ppl=30.85  tok_acc=54.00%  tok/s=6,282
+[Epoch 53 |  400/782] train_loss=3.4444  ppl=31.33  tok_acc=53.63%  tok/s=6,268
+[Epoch 53 |  600/782] train_loss=3.4599  ppl=31.81  tok_acc=53.30%  tok/s=6,265
+— preview (teacher-forced argmax) —
+HYP: - Gracias, curd.
+REF: - Gracias, Todd.
+Epoch 53 done | train_loss=3.4720
+[Epoch 54 |  200/782] train_loss=3.4190  ppl=30.54  tok_acc=53.82%  tok/s=6,340
+[Epoch 54 |  400/782] train_loss=3.4338  ppl=30.99  tok_acc=53.62%  tok/s=6,245
+[Epoch 54 |  600/782] train_loss=3.4492  ppl=31.48  tok_acc=53.36%  tok/s=6,201
+— preview (teacher-forced argmax) —
+HYP: En primera y es la la enable, en dos velocidad y de el Unión Europea y en de los derechos dearios de de para los que a los derechos de velocidad pueblos y
+REF: La primera preocupación es que, lamentablemente, existen dos velocidades en la Unión Europea: una para los asuntos monetarios y otra para lo relativo a los derechos de los trabajadores.
+Epoch 54 done | train_loss=3.4599
+[Epoch 55 |  200/782] train_loss=3.3977  ppl=29.90  tok_acc=54.40%  tok/s=6,223
+[Epoch 55 |  400/782] train_loss=3.4153  ppl=30.43  tok_acc=53.98%  tok/s=6,209
+[Epoch 55 |  600/782] train_loss=3.4338  ppl=31.00  tok_acc=53.65%  tok/s=6,195
+— preview (teacher-forced argmax) —
+HYP: Un Ro Roible
+REF: Un Rolex.
+Epoch 55 done | train_loss=3.4477
+[Epoch 56 |  200/782] train_loss=3.3749  ppl=29.22  tok_acc=54.64%  tok/s=6,181
+[Epoch 56 |  400/782] train_loss=3.4007  ppl=29.99  tok_acc=54.22%  tok/s=6,138
+[Epoch 56 |  600/782] train_loss=3.4188  ppl=30.53  tok_acc=53.90%  tok/s=6,180
+— preview (teacher-forced argmax) —
+HYP: Ibíd., párr.
+REF: Ibíd., párr.
+Epoch 56 done | train_loss=3.4337
+[Epoch 57 |  200/782] train_loss=3.3806  ppl=29.39  tok_acc=54.53%  tok/s=6,081
+[Epoch 57 |  400/782] train_loss=3.3921  ppl=29.73  tok_acc=54.25%  tok/s=6,158
+[Epoch 57 |  600/782] train_loss=3.4104  ppl=30.28  tok_acc=53.95%  tok/s=6,170
+— preview (teacher-forced argmax) —
+HYP: Sólo voy a bajarlo a una como una malditaita.
+REF: Sólo voy a llevarlo a cabo como una curita.
+Epoch 57 done | train_loss=3.4224
+[Epoch 58 |  200/782] train_loss=3.3640  ppl=28.91  tok_acc=54.95%  tok/s=6,139
+[Epoch 58 |  400/782] train_loss=3.3844  ppl=29.50  tok_acc=54.48%  tok/s=6,164
+[Epoch 58 |  600/782] train_loss=3.3979  ppl=29.90  tok_acc=54.25%  tok/s=6,227
+— preview (teacher-forced argmax) —
+HYP: (130-1
+REF: (183)
+Epoch 58 done | train_loss=3.4066
+[Epoch 59 |  200/782] train_loss=3.3614  ppl=28.83  tok_acc=54.85%  tok/s=6,065
+[Epoch 59 |  400/782] train_loss=3.3686  ppl=29.04  tok_acc=54.69%  tok/s=6,188
+[Epoch 59 |  600/782] train_loss=3.3839  ppl=29.49  tok_acc=54.42%  tok/s=6,211
+— preview (teacher-forced argmax) —
+HYP: La iniciativa públicas se encuentranan en la de los resadores.
+REF: Las asociaciones públicas se crean por iniciativa de sus fundadores.
+Epoch 59 done | train_loss=3.3950
+[Epoch 60 |  200/782] train_loss=3.3318  ppl=27.99  tok_acc=55.50%  tok/s=6,219
+[Epoch 60 |  400/782] train_loss=3.3593  ppl=28.77  tok_acc=54.96%  tok/s=6,273
+[Epoch 60 |  600/782] train_loss=3.3745  ppl=29.21  tok_acc=54.65%  tok/s=6,267
+— preview (teacher-forced argmax) —
+HYP: Las medida infancia es el período de el que se finalen de las causases y el el del la propiascusiones en el desarrollo. el. niño.
+REF: La primera infancia es el período en el que se suelen descubrir las discapacidades y tomar conciencia de sus repercusiones en el bienestar y desarrollo del niño.
+Epoch 60 done | train_loss=3.3837
+[Epoch 61 |  200/782] train_loss=3.3310  ppl=27.97  tok_acc=55.34%  tok/s=6,131
+[Epoch 61 |  400/782] train_loss=3.3523  ppl=28.57  tok_acc=55.01%  tok/s=6,200
+[Epoch 61 |  600/782] train_loss=3.3623  ppl=28.86  tok_acc=54.79%  tok/s=6,271
+— preview (teacher-forced argmax) —
+HYP: - Es es tu nn..
+REF: - Ese es tu sobrenombre.
+Epoch 61 done | train_loss=3.3734
+[Epoch 62 |  200/782] train_loss=3.3286  ppl=27.90  tok_acc=55.45%  tok/s=6,166
+[Epoch 62 |  400/782] train_loss=3.3331  ppl=28.03  tok_acc=55.36%  tok/s=6,271
+[Epoch 62 |  600/782] train_loss=3.3509  ppl=28.53  tok_acc=54.98%  tok/s=6,246
+— preview (teacher-forced argmax) —
+HYP: En realidad, " la "lcion de "Inor"" es la "taeras de "fabricada".
+REF: En realidad, según el diccionario "mentiroso" es la cuarta definición de "fabricante".
+Epoch 62 done | train_loss=3.3600
+[Epoch 63 |  200/782] train_loss=3.2985  ppl=27.07  tok_acc=55.95%  tok/s=6,256
+[Epoch 63 |  400/782] train_loss=3.3226  ppl=27.73  tok_acc=55.51%  tok/s=6,280
+[Epoch 63 |  600/782] train_loss=3.3355  ppl=28.09  tok_acc=55.24%  tok/s=6,253
+— preview (teacher-forced argmax) —
+HYP: No le gusta la se gustaieran.
+REF: No te gusta que te dirija.
+Epoch 63 done | train_loss=3.3520
+[Epoch 64 |  200/782] train_loss=3.2896  ppl=26.83  tok_acc=56.04%  tok/s=6,231
+[Epoch 64 |  400/782] train_loss=3.3133  ppl=27.48  tok_acc=55.64%  tok/s=6,197
+[Epoch 64 |  600/782] train_loss=3.3313  ppl=27.98  tok_acc=55.31%  tok/s=6,213
+— preview (teacher-forced argmax) —
+HYP: ¿No puede dejar eso detrás?
+REF: ¿No puede dejar eso atrás?
+Epoch 64 done | train_loss=3.3410
+[Epoch 65 |  200/782] train_loss=3.2786  ppl=26.54  tok_acc=56.23%  tok/s=6,236
+[Epoch 65 |  400/782] train_loss=3.2937  ppl=26.94  tok_acc=55.99%  tok/s=6,198
+[Epoch 65 |  600/782] train_loss=3.3193  ppl=27.64  tok_acc=55.51%  tok/s=6,198
+— preview (teacher-forced argmax) —
+HYP: Una a aific de a todos.
+REF: Saludos calurosos para todos.
+Epoch 65 done | train_loss=3.3288
+[Epoch 66 |  200/782] train_loss=3.2676  ppl=26.25  tok_acc=56.42%  tok/s=6,242
+[Epoch 66 |  400/782] train_loss=3.2876  ppl=26.78  tok_acc=56.03%  tok/s=6,271
+[Epoch 66 |  600/782] train_loss=3.3066  ppl=27.29  tok_acc=55.69%  tok/s=6,248
+— preview (teacher-forced argmax) —
+HYP: Parece que el jefe se el jefe Dalton se han metido con un momentoendo conanteto con un.
+REF: Parece que su jefe y el presidente Dalton se han metido en un tremendo contratiempo con Rusia.
+Epoch 66 done | train_loss=3.3195
+[Epoch 67 |  200/782] train_loss=3.2691  ppl=26.29  tok_acc=56.37%  tok/s=6,285
+[Epoch 67 |  400/782] train_loss=3.2823  ppl=26.64  tok_acc=56.13%  tok/s=6,342
+[Epoch 67 |  600/782] train_loss=3.3003  ppl=27.12  tok_acc=55.78%  tok/s=6,281
+— preview (teacher-forced argmax) —
+HYP: •),la sea que no trataicen o no a evitar a cabo de;;
+REF: □ Ya sea que se utilicen o no para llevar a cabo actos terroristas;
+Epoch 67 done | train_loss=3.3084
+[Epoch 68 |  200/782] train_loss=3.2585  ppl=26.01  tok_acc=56.59%  tok/s=6,116
+[Epoch 68 |  400/782] train_loss=3.2729  ppl=26.39  tok_acc=56.26%  tok/s=6,179
+[Epoch 68 |  600/782] train_loss=3.2855  ppl=26.72  tok_acc=56.07%  tok/s=6,185
+— preview (teacher-forced argmax) —
+HYP: Quizás su dirección será será más mas baj.
+REF: Quizá su dirección me sea de más ayuda.
+Epoch 68 done | train_loss=3.2979
+[Epoch 69 |  200/782] train_loss=3.2540  ppl=25.89  tok_acc=56.68%  tok/s=6,326
+[Epoch 69 |  400/782] train_loss=3.2724  ppl=26.38  tok_acc=56.34%  tok/s=6,248
+[Epoch 69 |  600/782] train_loss=3.2812  ppl=26.61  tok_acc=56.12%  tok/s=6,214
+— preview (teacher-forced argmax) —
+HYP: No decir, no.
+REF: Quiero decir, no.
+Epoch 69 done | train_loss=3.2880
+[Epoch 70 |  200/782] train_loss=3.2265  ppl=25.19  tok_acc=57.17%  tok/s=6,155
+[Epoch 70 |  400/782] train_loss=3.2480  ppl=25.74  tok_acc=56.66%  tok/s=6,198
+[Epoch 70 |  600/782] train_loss=3.2623  ppl=26.11  tok_acc=56.40%  tok/s=6,211
+— preview (teacher-forced argmax) —
+HYP: ¿Qué?
+REF: ¿Qué?
+Epoch 70 done | train_loss=3.2805
