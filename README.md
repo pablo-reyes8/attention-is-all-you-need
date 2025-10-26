@@ -84,6 +84,7 @@ attention-is-all-you-need/
 │   │   └─ transformer_utils.py     # Weight initialization, parameter counting
 │   │
 │   ├─ transformer.py               # High-level Encoder–Decoder assembly
+│   ├─ inference.py                 # Inference rutine for use the model after training
 │
 ├─ test/                            # Unit tests (pytest style)
 │   ├─ conftest.py                  # Pytest fixtures (mocks, sample tensors)
