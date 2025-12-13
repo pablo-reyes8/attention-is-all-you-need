@@ -1,5 +1,16 @@
 # Attention Is All You Need — PyTorch (EN↔ES MT)
 
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Repo size](https://img.shields.io/github/repo-size/pablo-reyes8/attention-is-all-you-need)
+![Last commit](https://img.shields.io/github/last-commit/pablo-reyes8/attention-is-all-you-need)
+![Open issues](https://img.shields.io/github/issues/pablo-reyes8/attention-is-all-you-need)
+![Contributors](https://img.shields.io/github/contributors/pablo-reyes8/attention-is-all-you-need)
+![Forks](https://img.shields.io/github/forks/pablo-reyes8/attention-is-all-you-need?style=social)
+![Stars](https://img.shields.io/github/stars/pablo-reyes8/attention-is-all-you-need?style=social)
+
+
+
 A reproduction of the original **Transformer** architecture in PyTorch, tailored for **English↔Spanish machine translation** using the OPUS‑100 dataset and **SentencePiece** BPE. This repository emphasizes clarity, correctness, and testability—aimed at students and researchers who want a clean, minimal, and modern baseline that trains on a single T4 GPU.
 
 ---
