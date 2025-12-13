@@ -134,7 +134,7 @@ REF: ...
 ### Scaled Dot-Product Attention
 Given $Q\in\mathbb{R}^{L_q\times d_k}$, $K\in\mathbb{R}^{L_k\times d_k}$, $V\in\mathbb{R}^{L_k\times d_v}$:
 
-$$\mathrm{Attn}(Q,K,V)=\mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}+M\right)V$$
+$$\mathrm{Attn}(Q,K,V)=\mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt{d_k}}\right)V$$
 
 Time (single head): $O(L_qL_k d_k)$; Memory: $O(L_qL_k)$ for attention weights.
 
